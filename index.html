@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadaca broj 6</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div>
+        <table class="table">
+            <tr class="column">
+                <th>Ime</th>
+                <th>Prezime</th>
+                <th>Broj telefona</th>
+                <th>E-mail</th>
+                <th>Izbriši</th>
+            </tr>
+            <tr class="row" >
+                <td>Pero</td>
+                <td>Perić</td>
+                <td>066/789-654</td>
+                <td>pero.peric@tesla.com</td>
+                <td><input class="close" type="button" value="x"></td>
+                
+            </tr>
+          
+            <tr class="row" >
+                <td>Marko</td>
+                <td>Marković</td>
+                <td>066/321-456</td>
+                <td>marko.markovic@tesla.com</td> 
+                <td><input class="close" type="button" value="x"></td>
+            </tr>
+           
+        </table>
+    </div>
+
+    <div class="input-container">
+        <div>
+            <input class="type" required type="text" name="ime" id="ime" placeholder="Ime">
+        </div>
+        <div >
+            <input class="type" required type="text" name="prezime" id="prezime" placeholder="Prezime">
+        </div>
+        <div >
+            <input  class="type"required type="tel" name="telefon" id="telefon" placeholder="Broj telefona">
+        </div>
+        <div >
+            <input  class="type"required type="email" name="email" id="email" placeholder="E-mail">
+        </div>
+        <div >
+            <input class="dugme" type="button" value="DODAJ">
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+.column{
+    height: 30px;
+    background-color: #212529;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    column-width: auto;
+    font-size: 13px;
+}
+
+.row{
+    border-bottom: 1px solid gray;
+}
+
+.close{
+    padding: 3px 6px;
+    color: red;
+    font-size: 20px;
+    border: 1.5px solid red;
+    border-radius: 4px;
+}
+.input-container{
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.type{
+    width: 70%;
+    padding-block: 15px;
+    margin-block: 10px;
+ 
+}
+
+input[type=button]{
+    color: ;
+}
+
+
+
+.dugme{
+    padding: 8px;
+    background-color: #198754;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    
+}
